@@ -1,10 +1,10 @@
 var express = require('express'),
     exphbs  = require('express3-handlebars'),
     passport = require('passport'),
-    LocalStrategy = require('passport-local'),
-    TwitterStrategy = require('passport-twitter'),
-    GoolgeStrategy = require('passport-google'),
-    FacebookStrategy = require('passport-facebook');
+    LocalStrategy = require('passport-local');
+    //TwitterStrategy = require('passport-twitter'),
+    //GoolgeStrategy = require('passport-google'),
+    //FacebookStrategy = require('passport-facebook');
     
 
 var config = require('./config.js'), //config file contains all tokens and other private info
